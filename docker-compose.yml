@@ -1,5 +1,5 @@
 web:
- image: nginx
+ image: nginx:1.16
  ports:
   - "85:80"
  environment:
